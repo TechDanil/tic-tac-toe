@@ -32,11 +32,6 @@ const GameService = ({ time, gridSize}) => {
       setIsNewGame(false);
   }, [isNewGame]);
 
-  useEffect(() => {
-    if (winner === 'X')
-      console.log('true');
-  }, [winner])
-
   const switchPlayerName = () => {
     setPlayerName( playerName === 'X' ? 'O': 'X');
     console.log(playerName);
@@ -74,10 +69,6 @@ const GameService = ({ time, gridSize}) => {
   const elapsedTimePopup = isTimeFinished ? <TimePopup
     resetGame={resetGame}
   /> : null;
-
-  console.log(winningCells)
-  console.log(time);
-  console.log(winner);
 
   return (
     <>
