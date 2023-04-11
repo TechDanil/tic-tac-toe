@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.game-field {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(218px, auto));
+  justify-content: center;
+  gap: 10px;
+  margin: 40px auto 0;
+  filter: drop-shadow(0px 4px 20px rgba(44, 57, 121, 0.09));
+  align-items: center;
+
+  &__cell {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    width: 218px;
+    height: 218px;
+    background: $white-color;
+    border-radius: 12px;
+  }
+}
+
+.winner-x {
+  background-color: $azureish-white-color;
+}
+
+.winner-o {
+  background-color: $orchink-pink;
+}

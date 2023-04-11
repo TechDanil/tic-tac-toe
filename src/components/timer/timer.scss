@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+
+.timer {
+  margin: 0 auto;
+  padding: 24px;
+  width: 139px;
+  height: 88px;
+  background: $bright-gray-color;
+  border-radius: 12px;
+
+  &__tracker {
+    font-weight: 900;
+    font-size: 34px;
+    color: $onyx;
+    text-align: center;
+  }
+}

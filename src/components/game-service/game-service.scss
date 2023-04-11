@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+
+.game-service {
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    margin: 40px auto 0;
+    width: 400px;
+    height: 48px;
+    background-color: $onyx;
+    box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+    border-radius: 12px;
+
+    &-content {
+      display: flex;
+      justify-content: space-around;
+      width: 197px;
+
+      span {
+        color: $white-color;
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+      img {
+        width: 24px;
+      }
+    }
+  }
+}

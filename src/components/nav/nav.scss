@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+
+.nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 707px;
+
+    &__item {
+      &-link {
+        font-weight: 500;
+        font-size: 16px;
+        color: $onyx-color;
+        text-align: center;
+      }
+
+      &:first-letter {
+        text-transform: uppercase;
+      }
+
+      &-active {
+        background: $green-sheen-color;
+        border-radius: 200px;
+        padding: 8px 12px;
+
+        a {
+          color: $white-color;
+        }
+      }
+    }
+  }
+
+  .exit-icon {
+
+  }
+}

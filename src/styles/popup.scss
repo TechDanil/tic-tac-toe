@@ -1,0 +1,46 @@
+@import "variables";
+
+.popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  //background-color: rgba(229,229,229, 1);
+  z-index: 1;
+  overflow-y: hidden;
+
+  &__block {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border-radius: 16px;
+    width: 400px;
+    height: 429px;
+    padding: 40px 24px;
+    box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+    background-color: $white-color;
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    &-text {
+      margin-top: 20px;
+      text-align: center;
+      color: $onyx-color;
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    &-buttons {
+      margin-top: 23px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 12px;
+    }
+  }
+}

@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Задание 3
+- сверстать поле для игры, ссылка (https://www.figma.com/file/YA2RnlSNBin2fVK18cBpaP/%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-(Copy)?node-id=2-824&t=yi9iDZoMOX2QvqpF-0), обязательные элементы: таймер, поле, шапка с навигацией, какой игрок ходит и текущие игроки, чат
+- игровое поле должно быть играбильным
+  — открыв его я нажимаю начать и могу сам с собой поиграть
+  — в итоге игры должно быть выведено сообщение о победители и предложить сыграть еще раз
+  — также должен запускаться таймер и сбрасываться при новой игре
+  — отображение кто сейчас ходит
+- чат
+  — отображается сообщения которые написали
+  — можно написать сообщение и выбрать от кого его отправить, т.е. поле с вводом имени (на дизайнах такого нет, по этому верстка на ваше усмотрение)
+- сверстать авторизацию, ссылка
+  (https://www.figma.com/file/YA2RnlSNBin2fVK18cBpaP/%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-(Copy)?node-id=2-8&t=yi9iDZoMOX2QvqpF-0)— заложить какой нибудь логин и пароль чтобы могли воспроизвести ситуации когда ввели не верный логин и пароль, чтобы увидеть текст об ошибке
+- сверстать историю игр, ссылка
+  (https://www.figma.com/file/YA2RnlSNBin2fVK18cBpaP/%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-(Copy)?node-id=21-1516&t=yi9iDZoMOX2QvqpF-0)— все сыгранные игры должны отображаться в списке в полном формате как на дизайнах
